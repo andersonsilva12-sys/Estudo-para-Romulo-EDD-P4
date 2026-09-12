@@ -1,0 +1,62 @@
+Plano de estudos (7 dias)
+Dia	Foco
+
+1	JS: intro, web x Node, variáveis, operadores, tipos
+2	JS: condicionais, repetições, funções
+3	Intro a TADs: conceito de TAD, classes e objetos, vetores, matrizes
+4	Recursividade (com revisão de vetores/matrizes aplicada)
+5	Estruturas lineares: pilhas, filas, deques, listas
+6	Estruturas não lineares 1: árvores, BST, AVL
+7	Estruturas não lineares 2: árvores B, grafos, tabelas (hash) + revisão geral
+
+
+A lógica: dias 1–2 (JS) tendem a ser mais rápidos se você já teve contato com 
+programação antes. Recursividade ganhou um dia só pra ela porque é a base conceitual 
+pra entender árvores e grafos depois — pular ela rápido costuma cobrar caro nos dias 
+6 e 7.
+
+
+
+Dia 1 — JS: intro, web x Node, variáveis, operadores, tipos
+
+Pontos-chave pra revisar:
+
+JS no navegador (manipula DOM, eventos) vs Node.js (roda fora do navegador, acesso a 
+
+arquivos/sistema)
+var vs let vs const (escopo e reatribuição)
+Tipagem dinâmica e fracamente tipada (coerção de tipos)
+Tipos primitivos: number, string, boolean, undefined, null, symbol, bigint
+Operadores aritméticos, de comparação (== vs ===), lógicos
+
+
+Exercícios
+
+1. Cite uma diferença prática entre rodar JS no navegador e rodar no Node.js (algo que um consegue fazer e o outro não).
+
+2. Qual a diferença entre let e const? E por que var é geralmente evitado hoje em dia?
+
+3. Sem rodar o código, qual o valor de cada expressão?
+
+javascript
+console.log("5" + 3);
+console.log("5" - 3);
+console.log(true + 1);
+console.log("5" == 5);
+console.log("5" === 5);
+
+4. O que typeof retorna para cada um destes valores?
+
+javascript
+typeof 10
+typeof "10"
+typeof true
+typeof undefined
+typeof null
+typeof []
+
+(Uma delas é uma "pegadinha" clássica de JS — se souber qual é e por que, já ajuda bastante.)
+
+5. Explique com suas palavras a diferença entre == e ===. Dê um exemplo onde eles retornam resultados diferentes.
+
+6. Declare uma variável do tipo string, uma number e uma boolean, e escreva uma expressão que combine as três em uma única string usando concatenação ou template literal.
